@@ -1,0 +1,10 @@
+{
+  "name" : "Protect API Demo",
+  "version" : "1",
+  "description" : "This is demonstration of Cookie API",
+  "permissions": ["webNavigation", "tabs", "cookies", "*://*/"],
+  "background": {
+    "scripts": ["protect.js"]
+  },
+  "manifest_version": 2
+}
